@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 
-load_dotenv("a/api_token.env")
+load_dotenv("api_token.env")
 API_TOKEN = os.getenv("API_TOKEN")
 
 bot = Bot(token=API_TOKEN)
